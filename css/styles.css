@@ -210,6 +210,9 @@ hr{
     latest-coures part start
 ======================= */
 
+#course{
+    margin-bottom: 2%;
+}
 .course-content{
     width: 83%;
 }
