@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #F3F1FF;
+    margin: 0;
+}
+
+.container-nav{
+    width: 72%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.container:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out;
+    -moz-transition: 300ms ease-in-out;
+    -ms-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ==============
+    nav part start
+================= */
+
+#nav{
+    width: 100%;
+    height: 94px;
+    background: #562EFF;
+    margin-bottom: 1%;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon img {
+    width: 17%;
+    margin-top: 3%;
+    margin-left: 19%;
+    margin-right: 4%;
+}
+
+
+.nav-icon h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 8%;
+    color: #FFFFFF;
+}
+
+.nav-content{
+    position: relative;
+    left: 183%;
+}
+
+.nav-content a{
+    margin-right: 3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav-content img {
+    position: relative;
+    top: 25%;
+}
+
+/* ==============
+    nav part start
+================= */
+
+
+/* ====================
+    top part start
+======================== */
+
+#top{
+    margin-bottom: 2%;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.player-content-1, .player-content-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 4%;
+}
+
+.top-payer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.text {
+    position: relative;
+    left: -33%;
+}
+
+.header-text {
+    margin-bottom: 0%;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.header-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* line-height: 36px; */
+    color: #562EFF;
+    margin-bottom: 0.1%;
+    margin-top: 0%;
+}
+
+hr{
+    width: 90%;
+    border: 1px solid #D1D1D1;
+}
+
+/* .blogs-1, .blogs-2, .blogs-3, .blogs-4{
+    width: 50%
+} */
+
+.blogs-img img{
+    width: 100%;
+}
+
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    grid-row-gap: 4%;
+}
+
+.blogs-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 7%;
+}
+
+.blogs-text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 125%;
+    line-height: 34px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #000000;
+}
+
+.blogs-text span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 115%;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+
+.blogs-text span a {
+    color: #562EFF;
+}
+/* ====================
+    Top part end
+======================== */ 
+
+
+/* ===================
+    latest-coures part start
+======================= */
+
+.course-content{
+    width: 83%;
+}
+
+.course-img img{
+    width: 100%;
+}
+
+.latest-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    padding-top: 2%;
+    /* margin-top: 1%; */
+}
+
+.course-text h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 132%;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.course-text a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 106%;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+
+.course-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+.icon-2 {
+    display: flex;
+    align-items: center;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 2px 6px 2px 8px;
+}
+
+.o {
+    position: relative;
+    right: -3px;
+}
+/* ===================
+    latest-coures part end
+======================= */
